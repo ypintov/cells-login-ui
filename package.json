@@ -1,0 +1,28 @@
+{
+  "name": "@capa-cells/cells-login-ui",
+  "version": "1.0.0-rc.1",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "serve": "cells lit-component:serve"
+  },
+  "files": [
+    "/src/",
+    "/locales/",
+    "*.js",
+    "!**/*.scss"
+  ],
+  "dependencies": {
+    "@bbva-web-components/bbva-core-lit-helpers": "^1.0.4",
+    "@bbva-web-components/bbva-foundations-styles": "^2.3.5",
+    "@bbva-web-components/bbva-web-button-default": "^1.5.0",
+    "@bbva-web-components/bbva-web-form-password": "^1.1.2",
+    "@bbva-web-components/bbva-web-form-select": "^1.1.0",
+    "@bbva-web-components/bbva-web-form-text": "^1.0.24",
+    "lit-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cells/cells-component-core": "^3.1.0"
+  }
+}
